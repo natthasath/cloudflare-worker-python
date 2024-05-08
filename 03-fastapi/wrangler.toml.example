@@ -1,0 +1,8 @@
+name = "python-fastapi"
+main = "src/worker.py"
+type = "webpack"
+compatibility_flags = ["python_workers"]
+compatibility_date = "2023-12-18"
+
+[vars]
+MESSAGE = "This is an environment variable"
